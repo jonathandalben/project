@@ -1,0 +1,27 @@
+[
+  {
+    "username": "jbeniga@vertere-gs.com",
+    "password": "global",
+    "lastName": "beniga",
+    "firstName": "jonathan",
+    "middleName": "dalumpines",
+    "company": "Vertere Global System",
+    "motto": "you can do anything than everything"
+  },{
+    "username": "a",
+    "password": "b",
+    "lastName": "martinez",
+    "firstName": "jessica",
+    "middleName": "rodriguez",
+    "company": "A Solutin, Inc",
+    "motto": "patay kung patay"
+  },{
+    "username": "c",
+    "password": "d",
+    "lastName": "won",
+    "firstName": "ha",
+    "middleName": "ji",
+    "company": "Empress ki production",
+    "motto": "to see is to believe"
+  }
+]

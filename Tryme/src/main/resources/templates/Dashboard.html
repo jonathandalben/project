@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Dashboard Page</title>
+</head>
+<body>
+	<h3>Dashboard</h3>
+	<table border="0" th:object="${userInfo}" >
+		<tr>
+			<th colspan="2">Personal Detail</th>
+		</tr>
+		<tr>
+			<td><label>Name</label></td>
+			<td>:</td>
+			<td th:text="*{lastName+', '+firstName+' '+middleName}" />
+		</tr>
+		<tr>
+			<td><label>Company</label></td>
+			<td>:</td>
+			<td th:text="*{company}"/>
+		</tr>
+		<tr>
+			<td><label>Motto</label></td>
+			<td>:</td>
+			<td th:text="*{motto}"/>
+		</tr>
+	</table>
+</body>
+</html>
